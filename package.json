@@ -1,4 +1,23 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "0.1.0",
+  "description": "provide info about links and stats from md file input",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "git + https://github.com/AleOlea/SCL016-md-link.git"
+  },
+  "author": {
+    "name": "ale Ole",
+    "email": "aleole@gmail.com"
+  },
+  "bin": {},
+  "keywords": [
+    "links",
+    "javascript",
+    "jest",
+    "node.js",
+    "markdown"
+  ],
+  "license": "MIT"
 }
