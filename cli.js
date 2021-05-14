@@ -1,8 +1,12 @@
 #!/usr/bin/env node
-//Convert the JavaScript file into a NodeJS command-line script
-//https://medium.com/netscape/a-guide-to-create-a-nodejs-command-line-package-c2166ad0452e
-// const readPath = require ("./index.js")
-// const [, , ...args] = process.argv;
+//EVERYTHING WILL BE IMPORTED HERE
+const mdLinks = require("./index.js");
+const getUserInfo = require("./sayName")
 
-// console.log(`Arg passed is: ${args}" and content is:`)
-// // console.log(readPath(args[0]))
+getUserInfo.sayName();
+getUserInfo.sayAddress();
+
+
+
+mdLinks(process.argv[2])
+  

@@ -19,5 +19,9 @@
     "node.js",
     "markdown"
   ],
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+  
+    "readdirp": "^3.6.0"
+  }
 }
