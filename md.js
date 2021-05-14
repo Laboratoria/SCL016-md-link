@@ -46,6 +46,8 @@ readdirp('.', {fileFilter: '*.md', alwaysStat: true})
 }
 readIt()
 
+//TRATANDO DE COMITEAR
+
 
 
 

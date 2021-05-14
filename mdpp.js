@@ -34,3 +34,5 @@ const readIt = () => {
     .on('end', () => console.log('done'));
   }
   readIt()
+
+  //TRATANDO DE COMITEAR
